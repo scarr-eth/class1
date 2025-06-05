@@ -2,10 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/pfp.png" type="image/x-icon" sizes="16x16">
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header>
+        <h3>HTML V5.2.0</h3>
+        <div>
+            <nav>
+                <a href="about.html">About</a><br>
+                <a href="project.html">Projects</a><br>
+                <a href="contact.html">Contact</a><br>
+            </nav>
+            <form action="https://google.com/search" method="get">
+                <input type="text" name="q" placeholder="Search the web...">
+                <button type="submit">Search</button>
+        </div>
+    </header>
+    
+    <p>
+        Welcome to my website! This is a simple HTML page that demonstrates the use of various HTML elements. <br> Below, you'll find a list of characters from the <i>JoJo's Bizarre Adventure</i> series, organized by their respective parts. <br> Each part features its own unique characters, showcasing the diversity and creativity of the series.
+    </p>
+
+    <h3>Stardust Crusaders</h3>
+       <ol>
+        <li>Joseph Joestar</li>
+        <li>Mohammed Avdol</li>
+        <li>Jean-Pierre Polnareff</li>
+        <li>Jotaro Kujo</li>
+        <li>Noriyaki Kakyoin</li>
+       </ol>
+    
+    <h3><i>Passione</i></h3>
+    <ul>
+        <li>Bruno Bucciarati</li>
+        <li>Giorno Giovanna</li>
+        <li>Guido Mista</li>
+        <li>Leone Abbacchio</li>
+        <li>Trish Una</li>
+    </ul>
+
+    <a href="https://www.minecraft.net/">
+        <img src="img/ender.png" alt="windows enderman" width="256" height="160">
+    </a><br>
+
+    <table border="2" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Character</th>
+            <th>Part</th>
+            <th>Stand</th>
+        </tr>
+        <tr>
+            <td>Joseph Joestar</td>
+            <td>Stardust Crusaders</td>
+            <td>Hermit Purple</td>
+        </tr>
+        <tr>
+            <td>Jotaro Kujo</td>
+            <td>Stardust Crusaders</td>
+            <td>Star Platinum</td>
+        </tr>
+        <tr>
+            <td>Giorno Giovanna</td>
+            <td>Passione</td>
+            <td>Gold Experience</td>
+        </tr>
+        <tr>
+            <td>Bruno Bucciarati</td>
+            <td>Passione</td>
+            <td>Sticky Fingers</td>
+        </tr>
+        <tr>
+            <td>Kira Yoshikage</td>
+            <td>Diamond Is Unbreakable</td>
+            <td>Killer Queen: Bites da dusto</td>
+        </tr>
+    </table>
+
+    <!--this is a comment tag, nothing to see here....-->
+
+    <h3>Sign Up</h3>
+    <form action="login" method="post"></form>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember Me</label>
+        <br>
+    <button type="submit">Login</button>
+    </div>
+
+    <div>
+    <label for="city" >Choose a city:</label>
+    <select name="city" id="city">
+        <option value="lagos">Lagos</option>
+        <option value="abuja">Abuja</option>
+        <option value="portharcourt">Port Harcourt</option>
+        <option value="ibadan">Ibadan</option>
+        </select>
+    </div>
+    
+        
+    <br>
+
+        <label for="rating">Ratings</label>
+        <meter id="rating" value="8" min="0" max="10">Meter /10</meter><br>
+
+    <iframe width="110" height="200" src="https://www.myinstants.com/instant/tuco-get-out-30566/embed/"></iframe><br>
+
+    <audio src="" controls>
+        Your browser does not support the audio element.
+    </audio>
+
+
 </body>
 </html>

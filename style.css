@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+
+nav {
+    text-align: right;
+    color: white;
+    padding: 10px;
+}
+p {
+    color: blue;
+    strikethrough: red;
+    
+}
